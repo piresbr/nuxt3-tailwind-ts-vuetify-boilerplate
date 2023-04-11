@@ -10,7 +10,7 @@
 
     <v-chip class="my-5" color="primary" label>
       <v-icon start icon="mdi:mdi-car"></v-icon>
-      John Leider
+      {{ message }}
     </v-chip>
 
     <v-icon icon="mdi:mdi-food" size="60" class="my-5" />
@@ -27,5 +27,6 @@ export default defineComponent({
   components: {
     Icon,
   },
+  props: ["message"],
 });
 </script>

@@ -25,6 +25,8 @@
     "vue-tsc": "^1.2.0"
   },
   "dependencies": {
+    "@pinia/nuxt": "^0.4.8",
+    "pinia": "^2.0.34",
     "sass": "^1.61.0",
     "vuetify": "^3.1.4"
   }

@@ -1,12 +1,8 @@
 <template>
   <div>
-    <Hello />
+    <Hello message="Bruno Pires" />
   </div>
 </template>
-<script lang="ts">
-import { defineComponent } from "vue";
-
-export default defineComponent({
-  setup() {},
-});
+<script setup>
+import Hello from "../components/Hello";
 </script>
